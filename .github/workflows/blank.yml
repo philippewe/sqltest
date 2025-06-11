@@ -23,6 +23,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # calling an existing 'action' to checkout  (See github.com/actions --> search checkout see code and action.yml )
+      # @v4 is the version
       - uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
